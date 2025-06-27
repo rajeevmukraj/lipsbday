@@ -66,7 +66,7 @@ h1, h2, h3, h4, p {
     height: 400px;
     border: 6px solid #CA3C25;
     border-radius: 10px;
-    background-image: src="lip_birthday.jpg";
+    background-image: url("lip_birthday.jpg");
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-cheers:hover {
-    background-image: src="cheers.gif";
+    background-image: url("cheers.gif");
 }
 
 #footer {
