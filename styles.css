@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    font-family: Grenze Gotisch;
+    background: linear-gradient(#FFFBBD, #7FB069);
+    color: #1D1A05;
+}
+
+
+.grenze-gotisch-font {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 1px 1px 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #E6AA68;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #E6AA68;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #E6AA68;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #CA3C25;
+    border-radius: 10px;
+    background-image: url("images/lip_birthday.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajl2M2w3bTducHdveXJjM2U2dmlsMHdxaWJyZXBwZ2FyNzQyY2c0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rWq6jZ0yNkMit0VfoW/giphy.gif");
+}
+
+#gift-img-cheers {
+    background-image: url("https://img.freepik.com/premium-vector/you-are-invited-text-bubble-speech-frame-invitation-design_219581-873.jpg");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #FFFBBD;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
